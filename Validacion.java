@@ -26,7 +26,9 @@ public class Validacion{
             System.out.println("Esto no parece un numero");
         }
         if(allOk){
+            //Si todo sale bien imprimimos la cadena
             System.out.println(f);
+            System.out.println("El numero es "+num);
         }
     }
 }
